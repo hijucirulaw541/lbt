@@ -15,7 +15,7 @@ workflows:
         XCODE_PROJECT: "LBTBasque.xcodeproj"
         XCODE_SCHEME: "LBTBasque"
         BUNDLE_ID: "com.lineb.pelotefrance"
-        APP_STORE_APPLE_ID: ""
+        APP_STORE_APPLE_ID: "6768329373"
       xcode: latest
       cocoapods: default
 
