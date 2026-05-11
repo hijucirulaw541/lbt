@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#003f1a"/>
+  <circle cx="256" cy="214" r="92" fill="#f6f5ea"/>
+  <circle cx="226" cy="198" r="13" fill="#003f1a"/>
+  <circle cx="286" cy="198" r="13" fill="#003f1a"/>
+  <path d="M196 258c34 30 86 30 120 0" fill="none" stroke="#003f1a" stroke-width="18" stroke-linecap="round"/>
+  <path d="M128 328c38-34 78-40 120-15" fill="none" stroke="#f6f5ea" stroke-width="30" stroke-linecap="round"/>
+  <path d="M384 328c-38-34-78-40-120-15" fill="none" stroke="#f6f5ea" stroke-width="30" stroke-linecap="round"/>
+  <path d="M154 376c34-26 66-26 96 0" fill="none" stroke="#f6f5ea" stroke-width="24" stroke-linecap="round"/>
+  <path d="M358 376c-34-26-66-26-96 0" fill="none" stroke="#f6f5ea" stroke-width="24" stroke-linecap="round"/>
+  <text x="256" y="446" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="800" fill="#f6f5ea">OLHARROA</text>
+</svg>
