@@ -39,3 +39,5 @@ fastlane/test_output/
 .vscode/
 .idea/
 
+# Local scratch projects
+/2026-05-04-ios-swift-lineb-carreau/
