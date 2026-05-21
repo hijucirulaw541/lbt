@@ -54,7 +54,7 @@ private struct DashboardView: View {
                 .padding(.bottom, 24)
             }
             .lbtBasqueScreen()
-            .navigationTitle("LBT Basque")
+            .navigationTitle("L Basque")
             .navigationBarTitleDisplayMode(.inline)
             .toolbarColorScheme(.dark, for: .navigationBar)
         }
@@ -120,7 +120,7 @@ private struct NextActionCard: View {
 
     private var action: (title: String, text: String, icon: String) {
         if store.favoriteClubIDs.isEmpty && store.favoriteVenueIDs.isEmpty {
-            return ("Build your pelote base", "Pin a team and a place so LBT Basque separates who you follow from where you play.", "star")
+            return ("Build your pelote base", "Pin a team and a place so L Basque separates who you follow from where you play.", "star")
         }
 
         if store.matches.isEmpty {
@@ -247,7 +247,7 @@ private struct MatchAnalyticsCard: View {
                     MiniStat(value: "\(stats.pointsFor)-\(stats.pointsAgainst)", label: L10n.text("points", store.language))
                     MiniStat(value: String(format: "%.1f", stats.averageRallies), label: L10n.text("avgRallies", store.language))
                 }
-                Text("\(stats.wins) wins, \(stats.losses) losses, \(stats.draws) draws from your saved LBT Basque matches.")
+                Text("\(stats.wins) wins, \(stats.losses) losses, \(stats.draws) draws from your saved L Basque matches.")
                     .font(.caption)
                     .foregroundStyle(Color.lbtBasqueMuted)
             }

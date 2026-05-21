@@ -1,6 +1,6 @@
 workflows:
   ios-testflight:
-    name: LBT Basque iOS TestFlight
+    name: L Basque iOS TestFlight
     max_build_duration: 120
     instance_type: mac_mini_m2
 
